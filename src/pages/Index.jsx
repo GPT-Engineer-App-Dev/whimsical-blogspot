@@ -12,7 +12,8 @@ const Index = () => {
   }, []);
 
   return (
-    <Container centerContent maxW="container.md" py={8}>
+    <Box p={4}>
+      <Container centerContent maxW="container.md" py={8}>
       <VStack spacing={4}>
         <Heading as="h1" size="2xl">Welcome to My Blog</Heading>
         <Box boxSize="sm">
@@ -44,6 +45,7 @@ const Index = () => {
         </VStack>
       </VStack>
     </Container>
+    </Box>
   );
 };
 
